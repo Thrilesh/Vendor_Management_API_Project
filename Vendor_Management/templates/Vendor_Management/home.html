@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vendor Management System with Performance Metrics</title>
+
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+        }
+
+        p {
+            line-height: 1.5;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        a {
+            color: #007bff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Vendor Management System with Performance Metrics</h1>
+    </header>
+
+    <main>
+        <p>
+            This is the home page for our Vendor Management System.Use the links below to navigate to different API endpoints:
+        </p>
+
+        <ul>
+            <li><a href="{% url 'vendor-list' %}">VendorAPI</a></li>
+            <li><a href="{% url 'purchase_order-list' %}">Purchase Order API</a></li>
+            <li><a href="{% url 'historical_performance-list' %}">Historical Order API</a></li>
+        </ul>
+        
+            
+           
+        
+    </main>
+</body>
+</html>
