@@ -121,10 +121,10 @@ Consider using Django signals to trigger metric updates in real-time when relate
 To set up the Vendor Management System on your local machine, follow these instructions:
 
 Clone the repository:
-git clone <repository-url>
+git clone https://github.com/Thrilesh/Vendor_Management_API_Project
 
 Navigate to the project directory:
-cd <project-directory>
+cd C:\Users\91965\Desktop\Fatmug\Assignment
 
 Install dependencies:
 pip install -r requirements.txt
